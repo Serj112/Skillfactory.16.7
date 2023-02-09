@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skillfactory.16.7", "Skillfactory.16.7\Skillfactory.16.7.csproj", "{C2D4D241-F03A-428D-9D27-03D80D0EF4FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skillfactory.16.7.Tests", "Skillfactory.16.7.Tests\Skillfactory.16.7.Tests.csproj", "{4A378E91-AD2A-46DE-901B-84C92FD97729}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2D4D241-F03A-428D-9D27-03D80D0EF4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D4D241-F03A-428D-9D27-03D80D0EF4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D4D241-F03A-428D-9D27-03D80D0EF4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D4D241-F03A-428D-9D27-03D80D0EF4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A378E91-AD2A-46DE-901B-84C92FD97729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A378E91-AD2A-46DE-901B-84C92FD97729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A378E91-AD2A-46DE-901B-84C92FD97729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A378E91-AD2A-46DE-901B-84C92FD97729}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A420AD62-97F4-418A-9975-A2378FD7A6A0}
+	EndGlobalSection
+EndGlobal
