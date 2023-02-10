@@ -39,5 +39,12 @@ namespace Skillfactory._16._7.Tests
             var calculatorTest3 = new Calculator();
             Assert.That(calculatorTest3.Division(20, 4), Is.EqualTo(5));
         }
+
+        [Test]
+        public void Division_MustThrowException()
+        {
+            var calculatorTest4 = new Calculator();
+            Assert.Throws<DivideByZeroException>(() => calculatorTest4.Division(1, 0));
+        }
     }
 }
